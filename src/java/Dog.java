@@ -1,3 +1,5 @@
+package java;
+
 public class Dog extends TerrestrialAnimal implements Color {
 
     @Override

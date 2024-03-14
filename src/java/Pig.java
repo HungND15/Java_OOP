@@ -1,3 +1,5 @@
+package java;
+
 public class Pig extends TerrestrialAnimal implements Color {
 
     @Override

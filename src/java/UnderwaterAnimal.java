@@ -1,3 +1,5 @@
+package java;
+
 public class UnderwaterAnimal extends Animal {
 
     @Override

@@ -1,3 +1,5 @@
+package java;
+
 public class Cat extends TerrestrialAnimal implements Color {
 
     @Override

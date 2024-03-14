@@ -1,3 +1,5 @@
+package java;
+
 public class SkyAnimal extends Animal {
 
     @Override
