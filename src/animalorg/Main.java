@@ -1,6 +1,6 @@
 package animalorg;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         TerrestrialAnimal pig = new Pig();
         pig.sound();
@@ -9,5 +9,6 @@ public class main {
 
         Dog dog = new Dog();
         dog.color();
+        //Create conflict
     }
 }
