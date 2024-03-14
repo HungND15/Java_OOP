@@ -11,4 +11,8 @@ public class Dog extends TerrestrialAnimal implements Color {
     public void color() {
         System.out.println("The dog is yellow");
     }
+
+    public void doQuest(String questName) {
+        System.out.println("This dog is doing " + questName);
+    }
 }
