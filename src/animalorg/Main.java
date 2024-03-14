@@ -9,6 +9,29 @@ public class Main {
 
         Dog dog = new Dog();
         dog.color();
+        dog.setName("Mic");
+        // If dog name is equal Mic, then play with Mic
+        if (dog.getName().equals("Mic")) {
+            dog.doQuest("Take care children");
+        } else if (dog.getName().equals("Rex")) {
+            dog.doQuest("Catch thieves");
+        } else {
+            dog.doQuest("Take care house!");
+        }
+        int x = 0;
+        switch (dog.getName()) {
+            case "Mic":
+                dog.doQuest("Take care children");
+                x = 1;
+                break;
+            case "Rex":
+                dog.doQuest("Catch thieves");
+                x = 2;
+                break;
+            default:
+                dog.doQuest("Take care house!");
+        }
+        System.out.println(x);
         //Create conflict
     }
 }
