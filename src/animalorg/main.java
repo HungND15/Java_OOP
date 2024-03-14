@@ -1,4 +1,4 @@
-package java;
+package animalorg;
 
 public class main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package java;
+package animalorg;
 
 public class TerrestrialAnimal extends Animal {
     @Override

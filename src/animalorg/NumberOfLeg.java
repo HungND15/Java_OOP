@@ -1,4 +1,4 @@
-package java;
+package animalorg;
 
 public enum NumberOfLeg {
     TWOLEGS,
